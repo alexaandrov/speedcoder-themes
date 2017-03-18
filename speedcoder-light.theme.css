@@ -50,6 +50,10 @@ body {
     /*     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/triangular.png"); */
 }
 
+.container-fluid {
+    margin-right: 5px;
+    margin-left: 5px;
+}
 /* ----------------------------- */
 /* Basic (end) */
 /* ----------------------------- */
@@ -64,7 +68,7 @@ body {
 
 .col-md-2 .btn {
     padding: 10px 15px;
-    margin: auto 5px;
+    margin-rigth: 5px;
     position: relative;
     color: #fff;
     background: rgba(71, 212, 43, 0.8);
@@ -133,8 +137,6 @@ body {
 }
 
 #main {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 16px;
     width: 100%;
     height: 800px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -142,6 +144,7 @@ body {
     padding: 20px;
     color: rgba(255, 255, 255, 0.8);
     border: 0;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #main .visited {
@@ -151,25 +154,6 @@ body {
 #main .current {
     background-color: #47d42b;
     outline: #40be27;
-}
-
-.container-fluid {
-    margin-right: 19%;
-    margin-left: 19%;
-}
-
-@media (max-width: 1420px) {
-    .container-fluid {
-        margin-right: 8%;
-        margin-left: 8%;
-    }
-}
-
-@media (max-width: 1100px) {
-    .container-fluid {
-        margin-right: 5px;
-        margin-left: 5px;
-    }
 }
 /* ----------------------------- */
 /* Text block (end) */

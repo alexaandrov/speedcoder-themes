@@ -55,6 +55,11 @@ footer {
     border: 5px !important;
 }
 
+ .container-fluid {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .btn {
     font-family: 'Source Code Pro', monospace;
     background: rgba(255, 255, 255, 0.2);
@@ -123,7 +128,7 @@ button .close {
 }
 
 .col-md-2 .btn {
-    margin: 0 5px;
+    margin-right: 10px;
 }
 
 .col-md-2 .alert {
@@ -181,14 +186,8 @@ button .close {
     margin-top: 10px;
 }
 
-.container-fluid {
-    margin-right: 19%;
-    margin-left: 19%;
-}
-
 #main {
     font-family: 'Source Code Pro', monospace;
-    font-size: 16px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     color: rgba(255, 255, 255, 0.8);
@@ -205,20 +204,6 @@ button .close {
 #main .current {
     background-color: #47d42b;
     outline: #40be27;
-}
-
-@media (max-width: 1420px) {
-    .container-fluid {
-        margin-right: 8%;
-        margin-left: 8%;
-    }
-}
-
-@media (max-width: 1100px) {
-    .container-fluid {
-        margin-right: 5px;
-        margin-left: 5px;
-    }
 }
 /* ----------------------------- */
 /* Text block (end) */
