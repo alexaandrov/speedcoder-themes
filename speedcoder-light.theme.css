@@ -1,0 +1,175 @@
+/* ----------------------------- */
+/* Imports (start) */
+/* ----------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+/* ----------------------------- */
+/* Imports (end) */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Display none (start) */
+/* ----------------------------- */
+#main-frame-error {
+    display: none !important;
+}
+
+#sub-frame-error {
+    display: none !important;
+}
+
+#guide {
+    display: none !important;
+}
+
+iframe {
+    display: none !important;
+}
+
+.alert-danger {
+    display: none !important;
+}
+
+.myhands {
+    display: none !important;
+}
+
+#keyboard {
+    display: none !important;
+}
+/* ----------------------------- */
+/* Display none (end) */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Basic (start) */
+/* ----------------------------- */
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/bright_squares.png");
+    /*     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/circles-and-roundabouts.png"); */
+    /*     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png"); */
+    /*     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/triangular.png"); */
+}
+
+/* ----------------------------- */
+/* Basic (end) */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Menu and Timer (start) */
+/* ----------------------------- */
+.col-md-2 {
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.col-md-2 .btn {
+    padding: 10px 15px;
+    margin: auto 5px;
+    position: relative;
+    color: #fff;
+    background: rgba(71, 212, 43, 0.8);
+    border: 0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.col-md-2 .btn:hover {
+    box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.3);
+}
+
+.col-md-2 .btn:focus {
+    outline: none;
+}
+
+.col-md-2 .alert {
+    position: absolute;
+    width: 15%;
+    padding: 7px;
+    right: 15px;
+    font-size: 17px;
+    background: rgba(71, 212, 43, 0.8);
+    color: white
+}
+
+.col-md-2 a {
+    float: left;
+}
+
+.col-md-2 .dropdown {
+    margin-bottom: 5px !important;
+    float: left;
+}
+
+.col-md-2 .dropdown-menu {
+    background: rgba(71, 212, 43, 0.9);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    border: 0;
+}
+
+.col-md-2 .dropdown-menu > li > a {
+    width: 100%;
+    color: white;
+}
+
+.col-md-2 .dropdown-menu > li > a:hover {
+    width: 100%;
+    color: black;
+}
+/* ----------------------------- */
+/* Menu and Timer (end) */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Text block (start) */
+/* ----------------------------- */
+.col-md-7 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#main {
+    width: 100%;
+    height: 800px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#main .visited {
+    color: rgba(255, 255, 255, 1);
+}
+
+#main .current {
+    background-color: #47d42b;
+    outline: #40be27;
+}
+
+.container-fluid {
+    margin-right: 19%;
+    margin-left: 19%;
+}
+
+@media (max-width: 1420px) {
+    .container-fluid {
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container-fluid {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+/* ----------------------------- */
+/* Text block (end) */
+/* ----------------------------- */
